@@ -34,7 +34,7 @@ You can get the required files which are needed for the reproduction of our subm
 ├──training                                               # Training dataset and its groundtruth
 |   ├───groundtruth
 |   └───images
-├── result                		                          # Model output results
+├── result                		                              # Model output results
 |   ├── Res_Unet0.0007_submission.csv                     # The best submission on AICrowd
 |   ├── Res_Unet0.0007.pkl                                # The best model parameters
 |   ├── Res_Unet0.0007_performance.pkl                    # The best model performance, like loss and F1-score
@@ -44,10 +44,10 @@ You can get the required files which are needed for the reproduction of our subm
 ├── metrics.py                                            # Several loss functions 
 ├── run.py                                                # To reproduce our best results or train a new model
 ├── model.py                                              # Class of models we built
-├── required_packages.txt			                      # Required packages
-├── functions.py			                              # Functions to compute f1
-├── google colab.ipynb                           # Use google colab to run our code
-├── report.pdf                                   # This is our experiment report
+├── required_packages.txt			                              # Required packages
+├── functions.py			                                       # Functions to compute f1
+├── google colab.ipynb                                    # Use google colab to run our code
+├── report.pdf                                            # This is our experiment report
 └── README.md
 ```
 The best result we get in AICROWD is Res_Unet.
