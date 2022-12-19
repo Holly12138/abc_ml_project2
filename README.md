@@ -1,9 +1,10 @@
 # Project 2 Machine learning 
 
+Hi teachers, we want to emphasize that we only have 2 group members to complete project 2 but we tried our best.
+
 **The README outlines the requirements, project structure and the way to reproduce our final results. For more details regarding on our project and its implementation, check the paper and the source code.**
 
 ## Authors:
-**Hi teachers, we want to emphasize that we only have 2 group members to complete project 2 but we tried our best.
 - Rongchen Wang
 - Jin Yan
 
