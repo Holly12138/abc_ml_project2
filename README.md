@@ -50,28 +50,31 @@ You can get the required files which are needed for the reproduction of our subm
 ├── report.pdf                                   # This is our experiment report
 └── README.md
 ```
-The best result we get in AICROWD is Res_Unet.
-Results
-Model      Learning rate     F1-score      Accuracy
-U_Net      0.0003            0.874         0.932
-Res_Unet   0.0003            0.884         0.939
-RR_Unet    0.0003            0.882         0.937
-Attention_Res_Unet 0.0003    0.882         0.938
-U_Net      0.0004            0.870         0.930
-Res_Unet   0.0004            0.878         0.936
-RR_Unet    0.0004            0.878         0.937
-Attention_Res_Unet  0.0004   0.877         0.937
-U_Net      0.0005            0.868         0.930
-Res_Unet   0.0005            0.875         0.934
-RR_Unet    0.0005            0.884         0.938 
-Attention_Res_Unet  0.0005    0.874	       0.934
-U_Net      0.0007            0.865	       0.928
-Res_Unet   0.0007            0.885	       0.938
-RR_Unet    0.0007            0.885	       0.939 
-Attention_Res_Unet  0.0007   0.880	       0.937
+## The best result we get in AICROWD is Res_Unet.
+Results:
+
+
+|Model |     Learning rate |    F1-score |     Accuracy|
+|:-----------: | :-----------:  | :-----------: | :-----------:  | 
+|U_Net |      0.0003       |     0.874   |      0.932|
+|Res_Unet|   0.0003    |        0.884    |     0.939|
+|RR_Unet |   0.0003   |         0.882  |       0.937|
+|Attention_Res_Unet| 0.0003 |   0.882    |     0.938|
+|U_Net   |   0.0004 |           0.870    |     0.930|
+|Res_Unet|   0.0004  |          0.878  |       0.936|
+|RR_Unet  |  0.0004  |          0.878  |       0.937|
+|Attention_Res_Unet | 0.0004 |  0.877   |      0.937|
+|U_Net  |    0.0005   |         0.868    |     0.930|
+|Res_Unet |  0.0005 |           0.875 |        0.934|
+|RR_Unet |   0.0005 |           0.884 |        0.938 |
+|Attention_Res_Unet|  0.0005 |   0.874	 |      0.934|
+|U_Net   |   0.0007  |          0.865	  |     0.928|
+|Res_Unet|   0.0007   |         0.885	 |      0.938|
+|RR_Unet |   0.0007  |          0.885	 |      0.939 |
+|Attention_Res_Unet | 0.0007|   0.880	  |     0.937|
      
 ## How to run
-**We used Google Colab, which provides a free GPU to run our model. It is also possible to run our model with CPU, but it would be time-consuming. **
+We used Google Colab, which provides a free GPU to run our model. It is also possible to run our model with CPU, but it would be time-consuming. 
 To reproduce our final results
 - You can run this project by using following command:
 ```
