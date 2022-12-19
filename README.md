@@ -14,16 +14,16 @@ Hi teachers, we want to emphasize that we only have 2 group members to complete 
 
 
 ## Required packages
-Apart from the basic packages, the project is done under:
-**Image==1.5.33
-matplotlib==3.3.4
-numpy==1.20.1
-skimage==0.0
-torch==1.10.0
-torchvision==0.11.1
-**
+Apart from the basic packages, the project is done under:  
+- Image==1.5.33  
+- matplotlib==3.3.4  
+- numpy==1.20.1  
+- skimage==0.0  
+- torch==1.10.0  
+- torchvision==0.11.1
 
-You can install the required packages by `pip install -r requirements.txt` or `conda install requirements.txt`
+
+You can install the required packages by `pip install -r required_packages.txt` or `conda install required_packages.txt`
  
 ## Important: Instructions to run run.py
 You can get the required files which are needed for the reproduction of our submission from this repository. Please do not forget to create the folder hierarchy if you manually download the model and the dataset. Specifically, your architecture of the project should look like this:
@@ -74,7 +74,7 @@ The best result we get in AICROWD is Res_Unet.
 |Attention_Res_Unet|  0.0007 |  0.880	 |      0.937|
      
 ## How to run
-We used Google Colab, which provides a free GPU to run our model. It is also possible to run our model with CPU, but it would be time-consuming. 
+We used Google Colab, which provides a free GPU to run our model. It is also possible to run our model with CPU, but it would be time-consuming.   
 To reproduce our final results
 - You can run this project by using following command:
 ```
