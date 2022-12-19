@@ -3,6 +3,7 @@
 **The README outlines the requirements, project structure and the way to reproduce our final results. For more details regarding on our project and its implementation, check the paper and the source code.**
 
 ## Authors:
+**Hi teachers, we want to emphasize that we only have 2 group members to complete project 2 but we tried our best.
 - Rongchen Wang
 - Jin Yan
 
@@ -44,6 +45,8 @@ You can get the required files which are needed for the reproduction of our subm
 ├── model.py                                              # Class of models we built
 ├── required_packages.txt			                      # Required packages
 ├── functions.py			                              # Functions to compute f1
+├── google colab.ipynb                           # Use google colab to run our code
+├── report.pdf                                   # This is our experiment report
 └── README.md
 ```
 The best result we get in AICROWD is Res_Unet.
