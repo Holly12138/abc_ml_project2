@@ -25,7 +25,8 @@ Apart from the basic packages, the project is done under:
 
 You can install the required packages by `pip install -r required_packages.txt` or `conda install required_packages.txt`
  
-## Important: Instructions to run run.py
+## Important: Instructions for run.py
+
 You can get the required files which are needed for the reproduction of our submission from this repository. Please do not forget to create the folder hierarchy if you manually download the model and the dataset. Specifically, your architecture of the project should look like this:
 
 ```
@@ -51,8 +52,14 @@ You can get the required files which are needed for the reproduction of our subm
 ├── report.pdf                                            # This is our experiment report
 └── README.md
 ```
-The best result we get in AICROWD is RR_Unet with 0.0007 learning rate and batch size 6.
-(When you run new models, the new images will be overwritten and generate new 4 documents (submission.csv, model+learningrate.pkl, model+learningrate_performance.pkl, model+learningratetrain_loss.png)
+The best result we get in AICROWD is RR_Unet with 0.0007 learning rate and batch size 6.  
+
+When you run new models, the new images will be overwritten and generate new 4 documents:  
+submission.csv;  
+model+learningrate.pkl;  
+model+learningrate_performance.pkl;  
+model+learningratetrain_loss.png
+
 ## Results
 
 |Model   |   Learning rate |    F1-score   |   Accuracy|
