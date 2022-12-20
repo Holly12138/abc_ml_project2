@@ -1,6 +1,6 @@
 # Project 2 Machine learning 
 
-Hi teachers, we want to emphasize that we only have 2 group members to complete project 2 but we tried our best.
+Hi teachers, we want to emphasize that we only have 2 group members to complete project 2 but we tried our best, because one of my earlier teammate dropped this course.
 
 **The README outlines the requirements, project structure and the way to reproduce our final results. For more details regarding on our project and its implementation, check the paper and the source code.**
 
@@ -34,11 +34,12 @@ You can get the required files which are needed for the reproduction of our subm
 ├──training                                               # Training dataset and its groundtruth
 |   ├───groundtruth
 |   └───images
-├── result                		                              # Model output results
-|   ├── Res_Unet0.0007_submission.csv                     # The best submission on AICrowd
-|   ├── Res_Unet0.0007.pkl                                # The best model parameters
-|   ├── Res_Unet0.0007_performance.pkl                    # The best model performance, like loss and F1-score
-|   └── new_images                                        # The test imges overlayed with predicted road
+├── result                                                # Model output results
+|   ├── RR_Unet0.0007submission.csv                       # The best submission on AICrowd
+|   ├── RR_Unet0.0007.pkl                                 # The best model parameters
+|   ├── RR_Unet0.0007_performance.pkl                     # The best model performance, like loss and F1-score
+|   ├── RR_Unet0.0007train_loss.png                       # The picture of train loss, train F1-score, valid loss and valid F1-score
+|   └── new_images                                        # The test images overlayed with predicted road
 ├── data_process.py                                       # To enlarge dataset using data augmentation
 ├── mask_to_submission.py                                 # Functions converting the model output to csv format
 ├── metrics.py                                            # Several loss functions 
@@ -50,8 +51,8 @@ You can get the required files which are needed for the reproduction of our subm
 ├── report.pdf                                            # This is our experiment report
 └── README.md
 ```
-The best result we get in AICROWD is Res_Unet.
-
+The best result we get in AICROWD is RR_Unet with 0.0007 learning rate and batch size 6.
+(When you run new models, the new images will be overwritten and generate new 4 documents (submission.csv, model+learningrate.pkl, model+learningrate_performance.pkl, model+learningratetrain_loss.png)
 ## Results
 
 |Model   |   Learning rate |    F1-score   |   Accuracy|
