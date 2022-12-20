@@ -70,7 +70,7 @@ The best result we get in AICROWD is Res_Unet.
 |Attention_Res_Unet|  0.0005  |  0.874	 |      0.934|
 |U_Net |     0.0007|            0.865	|       0.928|
 |Res_Unet|   0.0007  |          0.885	|       0.938|
-|RR_Unet |   0.0007   |         0.885	 |      0.939 |
+|RR_Unet |   0.0007   |         0.885	 |      0.940 |
 |Attention_Res_Unet|  0.0007 |  0.880	 |      0.937|
      
 ## How to run
