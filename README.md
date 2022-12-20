@@ -83,7 +83,7 @@ model+learningratetrain_loss.png
      
 ## How to run
 We used Google Colab, which provides a free GPU to run our model. It is also possible to run our model with CPU, but it would be time-consuming.   
-To reproduce our final results
+To reproduce our final results, note to change the path where documents is located!
 - You can run this project by using following command:
 ```
 !python run.py
