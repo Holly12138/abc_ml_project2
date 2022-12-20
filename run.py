@@ -230,7 +230,7 @@ if __name__ == "__main__":
     # model args
     parser.add_argument("--epochs", type=int, default=50, help="Number of training epochs")
     parser.add_argument("--batch_size", type=int, default=6, help="Number of batch sizes")
-    parser.add_argument("--model", type=str, default="Res_Unet", help="choose the NN model")
+    parser.add_argument("--model", type=str, default="RR_Unet", help="choose the NN model")
     parser.add_argument("--loss", type=str, default="IoULoss", help="choose the loss function")
     parser.add_argument("--use_model", type=bool, default=False, help="whether use previous trained model")
     parser.add_argument("--prediction", type=bool, default=True, help="whether running prediction on test set")
